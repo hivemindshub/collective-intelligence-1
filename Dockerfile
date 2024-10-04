@@ -38,10 +38,10 @@ RUN wget $DOWNLOAD_URL -O install1.sh && \
 #RUN wget $CSV_URL -O data.csv
 
 # Create the target directory
-##RUN mkdir -p ./text_files_directory
+##RUN mkdir -p ./files_directory
 
 # Move the CSV file to the target directory
-#RUN mv data.csv ./text_files_directory/
+#RUN mv data.csv ./files_directory/
 
 #RUN gcc -o process-seti-data -pthread process-seti-data.c
 #CMD ["./process-seti-data"]
@@ -74,4 +74,4 @@ CMD [ "echo", "Successfully installed!" ]
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3.1",  "prompt":"What is water?"}'
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3",  "prompt":"What is water?"}'
 
-#> python ./faiss-any-llm-feedback8.py llama3.1
+#> python ./llm-feedback.py llama3

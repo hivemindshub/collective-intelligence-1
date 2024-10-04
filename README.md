@@ -1,11 +1,11 @@
-# AI Hive: Collective of AI Drones
+# HiveMinds Hub: Collective of AI Intelligence
 
 - Dare to dream
 - Ignite your inspiration and innovation
 - Strive for excellence
 - Explore together & unlock the world's knowledge
 
-## AI Hive: SETI Data Analysis through a Collective of AI Drones
+## HiveMinds: SETI Data Analysis through a Collective of AI Drones
 
 - In this initiative, the project introduces the concept of a centralized AI Hive, as an innovative problem-solving approach. This project is dedicated to customizing and deploying an AI Hive explicitly designed for analyzing data from the SETI program. By harnessing the collective capabilities of AI algorithms and models, our AI Hive aims to extract insights and potential solutions from the extensive datasets produced by SETI observations.
 

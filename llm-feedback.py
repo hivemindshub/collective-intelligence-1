@@ -68,7 +68,7 @@ print(f"\nReceived LLM Model: {llm_model}")
 
 
 # Load text and PDF data from directory
-text_documents = load_text_documents("./text_files_directory")  # Update this path to your directory
+text_documents = load_text_documents("./files_directory")  # Update this path to your directory
 
 # Split the text data
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
@@ -112,8 +112,8 @@ if not check_port(PORT):
     sys.exit(1)  # Exit the program with a non-zero status code
 
 
-print(f"\n\nCheck for story in folder ./text_files_directory about Remy.")
-print(f"\nPrompt suggestions:\nwhat is this story about?\nis there a dragon?\ntell me more about Remy.\ncreate another adventure under the ocean for Remy.\ntell me about Rev. Charles Leonard\ntell me a story about the titanic")
+print(f"\n\nCheck for story in folder ./files_directory .")
+print(f"\nPrompt suggestions:\nTell me about the document.")
 
 # Interactive query input loop
 while True:
@@ -138,7 +138,7 @@ while True:
 
     # Generate filename based on Unix timestamp
     timestamp = int(time.time())
-    filename = f"text_files_directory/result_{timestamp}.txt"
+    filename = f"files_directory/feedback_{timestamp}.txt"
     
     # Get the current date and time
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
