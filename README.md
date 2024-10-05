@@ -1,4 +1,4 @@
-# HiveMinds Hub: Collective of AI Intelligence
+# HiveMinds: Collective of AI Intelligence
 
 - Dare to dream
 - Ignite your inspiration and innovation
@@ -13,7 +13,7 @@
 
 --------------
 
-![alt text](image-4.png)
+![alt text](image-5.png)
 
 
 The first phase involves utilizing GitHub Codespaces as a proof of concept to initiate the initial AI drone. This AI drone will establish connectivity with the main data stream and transition into a stateful machine. This statefulness will empower it to ingest and process data, thereby integrating seamlessly into the collective of AI experts dedicated to analyzing and processing this unique data stream. Additionally, it will feature bidirectional data feed to the central data stream, allowing its findings to be consumed by other connected AI drones, thereby enhancing their analysis and exploration capabilities.
