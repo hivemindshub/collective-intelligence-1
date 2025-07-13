@@ -63,7 +63,7 @@ CMD [ "echo", "Successfully installed!" ]
 #app> ollama list
 ## should be empty
 
-#app> ollama run llama3 --verbose
+#app> ollama run gemma3 --verbose
 #(option)
 #app> ollama run llama3.1 --verbose
 #(option)
@@ -71,7 +71,7 @@ CMD [ "echo", "Successfully installed!" ]
 
 ## CREATE A NEW BASH
 ## curl commands for testing. 
+#> curl -X POST http://localhost:11434/api/generate -d '{  "model": "gemma3",  "prompt":"What is water?"}'
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3.1",  "prompt":"What is water?"}'
-#> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3",  "prompt":"What is water?"}'
 
-#> python ./llm-feedback.py llama3
+#> python ./llm-feedback.py gemma3

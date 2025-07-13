@@ -1,4 +1,4 @@
-# HiveMinds: Collective of AI Intelligence
+# HiveMinds: SETI Data Analysis with AI 
 
 - Dare to dream
 - Ignite your inspiration and innovation
@@ -13,15 +13,12 @@
 
 --------------
 
-![alt text](image-3.png)
-
-
 The first phase involves utilizing GitHub Codespaces as a proof of concept to initiate the initial AI drone. This AI drone will establish connectivity with the main data stream and transition into a stateful machine. This statefulness will empower it to ingest and process data, thereby integrating seamlessly into the collective of AI experts dedicated to analyzing and processing this unique data stream. Additionally, it will feature bidirectional data feed to the central data stream, allowing its findings to be consumed by other connected AI drones, thereby enhancing their analysis and exploration capabilities.
 
 
 ## Objective:
 
-This POC aims to evaluate the potential of the Llava-llama3 model in identifying and analyzing data types within a small sample of the SETI dataset. Specifically, the study seeks to determine the model's ability to accurately identify the type of data and provide detailed information about the DriftRate. The preliminary results are promising, indicating that the model successfully identified and formulated the DriftRate, showcasing its potential for advanced data analysis in SETI research.
+This POC aims to evaluate the potential of the Gemma3 model in identifying and analyzing data types within a small sample of the SETI dataset. Specifically, the study seeks to determine the model's ability to accurately identify the type of data and provide detailed information about the DriftRate. The preliminary results are promising, indicating that the model successfully identified and formulated the DriftRate, showcasing its potential for advanced data analysis in SETI research.
 
 - Prompt #1: Identify the area of research to which this dataset belongs. 
 
